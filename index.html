@@ -1,31 +1,33 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
+<title>Brian Peck</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="buttonClass.css">
+<link href="https://fonts.googleapis.com/css?family=Modak&display=swap" rel="stylesheet">
 <body class="w3-content" style="max-width:1300px">
 
 <!-- First Grid: Logo & About -->
 <div class="w3-row">
   <div class="w3-half w3-black w3-container w3-center" style="height:700px">
     <div class="w3-padding-64">
-      <h1>Brian Peck</h1>
+      <h1 style="font-size: 64px;font-family: 'Pacifico', cursive;">Brian Peck</h1>
     </div>
-    <div class="w3-padding-64">
-      <a href="#" class="w3-button w3-black w3-block w3-hover-blue-grey w3-padding-16">Home</a>
-      <a href="#work" class="w3-button w3-black w3-block w3-hover-teal w3-padding-16">My Work</a>
-      <a href="#work" class="w3-button w3-black w3-block w3-hover-dark-grey w3-padding-16">Resume</a>
-      <a href="#contact" class="w3-button w3-black w3-block w3-hover-brown w3-padding-16">Contact</a>
+    <div class="w3-padding-16">
+      <a href="#" class="w3-button w3-black w3-block w3-hover-blue-grey w3-padding-16" style="font-family: 'Pacifico',cursive;font-size: 20px">Home</a>
+      <a href="#work" class="w3-button w3-black w3-block w3-hover-teal w3-padding-16" style="font-family: 'Pacifico',cursive;font-size: 20px">My Work</a>
+      <a href="#work" class="w3-button w3-black w3-block w3-hover-dark-grey w3-padding-16" style="font-family: 'Pacifico',cursive;font-size: 20px">Resume</a>
+      <a href="#contact" class="w3-button w3-black w3-block w3-hover-brown w3-padding-16" style="font-family: 'Pacifico',cursive;font-size: 20px">Contact</a>
     </div>
   </div>
   <div class="w3-half w3-blue-grey w3-container" style="height:700px">
     <div class="w3-padding-64 w3-center">
-      <h1>About Me</h1>
+      <h1 style="font-family: 'Pacifico',cursive;">About Me</h1>
       <img src="me.jpg" class="w3-margin w3-circle" alt="Person" style="width:50%">
       <div class="w3-left-align w3-padding-large">
         <p>Passionate to seek a career that will continue to challenge my way of thinking</p>
-        <p>I am a Biomedical Engineer and Computer Science Major currently looking for internships and co-ops from inspiring companies that continually make an impact on the world we live in</p>
+        <p>I am a Biomedical Engineer and Computer Science major currently looking for internships and co-ops from inspiring companies that continually make an impact on the world we live in</p>
       </div>
     </div>
   </div>
@@ -35,12 +37,12 @@
 <div class="w3-row">
   <div class="w3-half w3-indigo w3-center" style="min-height:800px" id="work">
     <div class="w3-padding-48 w3-margin-top">
-      <h2>Course Work</h2>
-      <p>A colorful combination of classes</p>
+      <h2 style="font-family: 'Pacifico',cursive;">Course Work</h2>
+      <p style="font-family: 'Pacifico',cursive; font-size: 16px">A colorful combination of Classes</p>
     </div>
-    <div class="w3-row">
+    <div class="w3-row" >
    
-      <div class ="w3-col">
+      <div class ="w3-col" >
       
         <p><b>Biomedical Engineering</b></p>
         
@@ -105,8 +107,8 @@
 
   <div class="w3-half w3-red w3-container" style="min-height:800px">
     <div class="w3-padding-64 w3-center">
-      <h2>Resume</h2>
-      <p>A quick look at my Relevant Experiences</p>
+      <h2 style="font-family: 'Pacifico',cursive;">Resume</h2>
+      <p style="font-family: 'Pacifico',cursive; font-size: 16px">A quick look at my Relevant Experiences</p>
       <div class="w3-container w3-responsive">
         <table class="w3-table">
           <tr>
@@ -144,19 +146,60 @@
 
 <!-- Third Grid: Swing By & Contact -->
 <div class="w3-row" id="contact">
-  <div class="w3-half w3-black w3-container w3-center" style="height:700px">
+  <div class="w3-half w3-black w3-container w3-center" style="height:1000px">
+      
     <div class="w3-padding-64">
-      <h1>Personal Projects</h1>
+      <h1 style="font-family: 'Pacifico',cursive;">Personal Projects</h1>
+    
+    <ul class="w3-ul">
+          <li><p style="text-align: center;font-family: 'Pacifico',cursive;font-size: 18px">TensorFlow Machine Learning: Cats, Dogs, and Fashion Apparel</p>
+               </li> 
+          <li>
+            <div style="text-align: left;width:100%;height:0;padding-bottom:35%;position:relative;"><iframe src="https://giphy.com/embed/Q8g8JaAE3bSFEE0s6C" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+        <a href="https://github.com/bpeck2/TensorFlowExperiments"></a>
+        <p style="text-align: left">Experiments with multiple types of ML alorithms in TensorFlow with the Keras API. Focus included implementing and creating a efficient ML model that predicts whether an image is a cat or dog, and predicting types of clothing from a Fashion MNIST Dataset.</p>
+        </li>    
+        <li><p style="font-family: 'Pacifico',cursive;font-size: 18px">Alzheimer's Disease Companion App</p></li>
+        <li><img src="concept.jpg" style="position: relative;width: 60%">
+        <p style="text-align: left"><i>Providing comfort for the patient and the caretaker:</i>
+An AI assistant that helps to comfort patients by bringing up topics of interest based on their own feedback and caretaker input.
+Currently brainstorming potential algorithm frameworks to develop with (Utilize existing AI such as Actions With Google for the Google Assistant, or start from scratch!)
+</p>
+        </li>
+        
+            </ul>
+     
+    
     </div>
-    <div class="w3-padding-64">
-     <p>WIP</p>
-    </div>
+    
   </div>
-  <div class="w3-half w3-dark-grey w3-container" style="height:700px">
-    <div class="w3-padding-64 w3-padding-large">
-      <h1>Contact Me</h1>
-     	
-      <p>WIP</p>
+  <div class="w3-half w3-teal w3-container w3-center" style="height:1000px;">
+    <div class="w3-padding-64">
+      <h1 style="font-family: 'Pacifico',cursive;">Contact Me</h1>
+        <form action="mailto:bpeck2@wisc.edu">
+     	<p style="w3-padding-32">
+            
+        <button class="button" id="button1">Email</button>
+              </p>
+      </form>
+        
+      
+        <form action="https://github.com/bpeck2">
+     	<p style="w3-padding-32">
+            
+        <button class="button" id="button1">GitHub</button>
+              </p>
+      </form>
+        
+        <form action="https://www.linkedin.com/in/bpeck2/">
+     	<p style="w3-padding-32">
+            
+        <button class="button" id="button1">LinkedIn</button>
+              </p>
+      </form>
+        
+
+
     </div>
   </div>
 </div>
